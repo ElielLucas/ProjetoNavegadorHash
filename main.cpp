@@ -3,11 +3,10 @@
 int main()
 {
     queue<string> opWordd;
-    string nomeArquivo,op,word="";
-    printf("Forneca o nome do arquivo de entrada: ");
-    cin>>nomeArquivo;
-    Projeto pro(nomeArquivo);
-    cin.ignore();
+    string nomeArquivoPrincipal="arquivoMainDocs.txt",op,word="";
+
+    Projeto pro(nomeArquivoPrincipal);
+
     while(1)
     {
         op="";
