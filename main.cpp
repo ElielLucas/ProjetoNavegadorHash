@@ -3,7 +3,7 @@
 int main()
 {
     queue<string> opWordd;
-    string nomeArquivoPrincipal="arquivoMainDocs.txt",op,word="";
+    string nomeArquivoPrincipal="arquivoMainDocs.txt", op, word="";
 
     Projeto pro(nomeArquivoPrincipal);
 
